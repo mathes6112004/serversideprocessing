@@ -34,7 +34,7 @@ Publish the website in the url manojrathinavelu.student.saveetha.in:8000
 ### Home Page:
 
 ### math.html:
-<html>
+```<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -98,9 +98,9 @@ Publish the website in the url manojrathinavelu.student.saveetha.in:8000
         </div>
     </body>
 </html>
-
+```
 ### views.py:
-
+```
 from django.shortcuts import render
 
 def rectarea(request):
@@ -121,9 +121,9 @@ def rectarea(request):
         context['b']=b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
-
+```
 ### urls.py:
-
+```
 from django.contrib import admin
 from django.urls import path
 from myapp import views
@@ -133,7 +133,7 @@ urlpatterns = [
     path('areaofrectangle/',views.rectarea,name="areaofrectangle"),
     path('',views.rectarea,name="areaofrectangleroot")
 ]
-
+```
 ### OUTPUT:
 ![images](images/area.png.png)
 
