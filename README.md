@@ -140,3 +140,7 @@ urlpatterns = [
 
 ## Result:
 
+ design a website to perform mathematical calculations in server side is execute successfully.
+
+
+
