@@ -135,7 +135,7 @@ urlpatterns = [
 ]
 ```
 ### OUTPUT:
-![images](images/area.png.png)
+![images](images/area.png)
 
 
 ## Result:
