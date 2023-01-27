@@ -135,7 +135,7 @@ urlpatterns = [
 ]
 ```
 ### OUTPUT:
-![images](images/area.png)
+C:\Users\SEC\Downloads\WhatsApp Image 2023-01-27 at 1.35.01 PM.jpeg
 
 
 ## Result:
