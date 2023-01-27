@@ -136,6 +136,7 @@ urlpatterns = [
 ```
 ### OUTPUT:
 
+![sss](https://user-images.githubusercontent.com/119477782/215043012-e5da4208-7ddc-436e-ac6f-b151155d9aec.png)
 
 ## Result:
 
